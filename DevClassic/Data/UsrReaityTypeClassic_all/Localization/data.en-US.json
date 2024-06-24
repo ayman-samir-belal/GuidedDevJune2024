@@ -43,31 +43,12 @@
         {
           "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
           "ColumnName": "Id",
-          "Value": "97c7b3c6-67fb-4de6-9834-931be7b3b0c9"
-        },
-        {
-          "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
-          "ColumnName": "Name",
-          "Value": "5.Landing area"
-        },
-        {
-          "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
-          "ColumnName": "Description",
-          "Value": ""
-        }
-      ]
-    },
-    {
-      "Row": [
-        {
-          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
-          "ColumnName": "Id",
           "Value": "df562644-b84f-43f4-84c2-9abd67a7a390"
         },
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "3.Office space"
+          "Value": "3.Office "
         },
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
@@ -86,7 +67,7 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "4.Parking lot"
+          "Value": "4.Parking "
         },
         {
           "SchemaColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
