@@ -1,0 +1,84 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "65efe6bf-6924-4220-958b-62c75888b8fd"
+        },
+        {
+          "SchemaColumnUId": "44514c69-4989-9477-7cae-7e0213ac3817",
+          "Value": 633453450.00
+        },
+        {
+          "SchemaColumnUId": "dc570909-6cfa-a34e-1f2a-485a340e41fe",
+          "Value": "Code #1"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "66b353fe-a4ad-4f9e-b1e6-f16068fe4cb2"
+        },
+        {
+          "SchemaColumnUId": "44514c69-4989-9477-7cae-7e0213ac3817",
+          "Value": 2000000.00
+        },
+        {
+          "SchemaColumnUId": "dc570909-6cfa-a34e-1f2a-485a340e41fe",
+          "Value": "Code #2"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "97c7b3c6-67fb-4de6-9834-931be7b3b0c9"
+        },
+        {
+          "SchemaColumnUId": "44514c69-4989-9477-7cae-7e0213ac3817",
+          "Value": 0.00
+        },
+        {
+          "SchemaColumnUId": "dc570909-6cfa-a34e-1f2a-485a340e41fe",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "df562644-b84f-43f4-84c2-9abd67a7a390"
+        },
+        {
+          "SchemaColumnUId": "44514c69-4989-9477-7cae-7e0213ac3817",
+          "Value": 500000.00
+        },
+        {
+          "SchemaColumnUId": "dc570909-6cfa-a34e-1f2a-485a340e41fe",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f265cd1d-d891-4dfb-8fd1-a0b6dc2e19ca"
+        },
+        {
+          "SchemaColumnUId": "44514c69-4989-9477-7cae-7e0213ac3817",
+          "Value": 35000.00
+        },
+        {
+          "SchemaColumnUId": "dc570909-6cfa-a34e-1f2a-485a340e41fe",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}
