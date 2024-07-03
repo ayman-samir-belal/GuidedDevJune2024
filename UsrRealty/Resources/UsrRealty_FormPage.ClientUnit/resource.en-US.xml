@@ -6,6 +6,11 @@
 			<Item Name="LocalizableStrings.addRecord_1kcrdym_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_nhqa2q2_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_x66vgsd_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_588n4d5_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.Button_9gtwx6k_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.Button_rc3p2cb_caption.Value" Value="Button" />
+			<Item Name="LocalizableStrings.Button_vh1bxt3_caption.Value" Value="push me" />
+			<Item Name="LocalizableStrings.Button_x504ugq_caption.Value" Value="Button" />
 		</Items>
 	</Group>
 </Resources>

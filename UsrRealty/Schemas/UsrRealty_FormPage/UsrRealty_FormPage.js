@@ -71,6 +71,27 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "Button_vh1bxt3",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_vh1bxt3_caption)#",
+					"color": "accent",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "usr.PushButtonRequest"
+					},
+					"clickMode": "default",
+					"icon": "process-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "UsrName",
 				"values": {
 					"layoutConfig": {
@@ -389,7 +410,25 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+          {
+              request: "usr.PushButtonRequest",
+              /* Implementation of the custom query handler. */
+              handler: async (request, next) => {
+                //debugger;
+                this.console.log("Button works...");
+                Terrasoft.showInformation("My button was pressed.");
+                // Retrieve the attribute value from the request context
+                var price1 = await request.$context.PDS_UsrColumn2_vsjdpjh;
+                ///var price2 = request.$context.get("PriceUSD");
+                this.console.log("Price1 = " + price1);
+                //this.console.log("Price2 = " + price2);
+                //request.$context.PDS_UsrArea_glmjgg6 = price2 * 0.2;
+                /* Call the next handler if it exists and return its result. */
+                return next?.handle(request);
+              }
+        },   
+        ]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};
