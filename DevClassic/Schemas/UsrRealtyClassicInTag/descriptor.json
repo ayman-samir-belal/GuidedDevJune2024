@@ -8,6 +8,7 @@
       "Name": "BaseEntityInTag"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty Classic section record tag"
+    "Caption": "Realty Classic section record tag",
+    "DependsOn": []
   }
 }

@@ -8,6 +8,7 @@
       "Name": "BaseFolder"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty Classic folder"
+    "Caption": "Realty Classic folder",
+    "DependsOn": []
   }
 }

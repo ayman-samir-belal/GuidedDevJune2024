@@ -14,7 +14,11 @@ define("UsrRealtyClassic1Page", [], function() {
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
-		methods: {},
+		methods: {
+          onRunWebServiceButtonClick:function () {
+            //do soething here later
+          }
+        },
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
 			{
@@ -58,10 +62,10 @@ define("UsrRealtyClassic1Page", [], function() {
 				"name": "FLOAT2d08e14d-9ec8-40c3-8b73-67baec4c52a3",
 				"values": {
 					"layout": {
-						"colSpan": 24,
+						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 2,
+						"row": 3,
 						"layoutName": "ProfileContainer"
 					},
 					"bindTo": "UsrArea",
@@ -71,6 +75,20 @@ define("UsrRealtyClassic1Page", [], function() {
 				"propertyName": "items",
 				"index": 2
 			},
+           /* Properties to add the custom button to the page. */
+            {              
+                "operation": "insert",
+                "parentName": "ProfileContainer",
+                "propertyName": "items",
+                "name": "RunWebServicetButton",
+                "values": {         
+                    "itemType": Terrasoft.ViewItemType.BUTTON,
+                    "caption": {bindTo: "Resources.Strings.RunWebServiceCaption"},
+                    "click": {bindTo: "onRunWebServiceButtonClick"},
+                    "enabled": {bindTo: "isAccountPrimaryContactSet"},
+                    "style": Terrasoft.controls.ButtonEnums.style.BLUE
+                }
+            },
 			{
 				"operation": "insert",
 				"name": "LOOKUP29aef633-f4c3-4bf9-8b81-8a7cba7ae088",

@@ -8,6 +8,7 @@
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty Visit"
+    "Caption": "Realty Visit",
+    "DependsOn": []
   }
 }

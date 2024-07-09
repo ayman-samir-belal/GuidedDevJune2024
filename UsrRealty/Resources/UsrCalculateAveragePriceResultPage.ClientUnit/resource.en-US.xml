@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Calculation result  page" />
+			<Item Name="LocalizableStrings.addRecord_7pi1437_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ComboBox_weth2jq_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_weth2jq_label.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.Input_rktftrz_label.Value" Value="Text" />
+			<Item Name="LocalizableStrings.NumberInput_dogr4gg_label.Value" Value="Average price, USD" />
+			<Item Name="LocalizableStrings.RichTextEditor_6z4eood_caption.Value" Value="Rich text" />
+			<Item Name="LocalizableStrings.RichTextEditor_6z4eood_label.Value" Value="SQL TEXT debug only" />
+			<Item Name="Parameters.7e25c866-be9e-a160-38cd-4edb214434f4.Caption" Value="Average price USD" />
+			<Item Name="Parameters.c757bd86-8d1b-43b4-2f6b-7d8e7e1b452f.Caption" Value="SQL text (debug only)" />
+		</Items>
+	</Group>
+</Resources>
